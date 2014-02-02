@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Script Tutorials" />
+        <title>LIFX Control Pad</title>
+
+        <!-- add styles -->
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+        <!-- add scripts -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+
+            <div class="colorpicker">
+                <div class="preview">Preview</div>
+                <div class="saved">Saved</div>
+
+                <canvas id="picker" var="6" width="300" height="300"></canvas>
+
+                <div class="controls">
+                    <div><label>R</label> <input readonly="readonly" type="text" id="rVal" /></div>
+                    <div><label>G</label> <input readonly="readonly" type="text" id="gVal" /></div>
+                    <div><label>B</label> <input readonly="readonly" type="text" id="bVal" /></div>
+                    <div><label>RGB</label> <input readonly="readonly" type="text" id="rgbVal" /></div>
+                    <div><label>HEX</label> <input readonly="readonly" type="text" id="hexVal" /></div>
+                </div>
+            </div>
+
+    </body>
+</html>

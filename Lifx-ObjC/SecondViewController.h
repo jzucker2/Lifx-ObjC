@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController <UIWebViewDelegate>
+
+@property (nonatomic, weak) IBOutlet UIWebView *lightWebView;
 
 @end

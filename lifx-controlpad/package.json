@@ -1,0 +1,20 @@
+{
+  "name": "lifx-controlpad",
+  "version": "0.1.0",
+  "description": "LIFX and HTML5 Canvas Control App",
+  "main": "app.js",
+  "dependencies": {
+    "lifx": "~0.1.3",
+    "pubnub": "~3.5.48"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cody Massin <keyosk@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/keyosk/lifx-controlpad.git"
+  }
+}

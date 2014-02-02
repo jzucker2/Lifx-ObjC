@@ -7,12 +7,20 @@
 //
 
 #import "AppDelegate.h"
+//#import <PonyDebugger.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+//    PDDebugger *debugger = [PDDebugger defaultInstance];
+//    [debugger autoConnect];
+//    
+//    [debugger enableNetworkTrafficDebugging];
+//    [debugger forwardAllNetworkTraffic];
+    
     return YES;
 }
 							
